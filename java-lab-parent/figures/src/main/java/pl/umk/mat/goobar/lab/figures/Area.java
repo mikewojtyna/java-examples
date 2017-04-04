@@ -57,6 +57,11 @@ public class Area
 		return result;
 	}
 
+	public Area plus(Area otherArea)
+	{
+		return new Area(value + otherArea.value);
+	}
+
 	/* (non-Javadoc)
 	 * @see java.lang.Object#toString()
 	 */
