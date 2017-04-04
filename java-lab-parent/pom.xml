@@ -25,6 +25,8 @@
 		<module>hello-world</module>
     <module>object-modelling</module>
     <module>maze-builde</module>
+    <module>streams-hello-world</module>
+    <module>figures</module>
   </modules>
 
 	<dependencies>
