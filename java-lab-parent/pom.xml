@@ -27,6 +27,7 @@
     <module>maze-builde</module>
     <module>streams-hello-world</module>
     <module>figures</module>
+    <module>threads</module>
   </modules>
 
 	<dependencies>
