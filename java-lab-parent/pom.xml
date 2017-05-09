@@ -34,6 +34,7 @@
 		<module>figures</module>
 		<module>threads</module>
 		<module>swing</module>
+		<module>io</module>
 	</modules>
 
 	<dependencies>
