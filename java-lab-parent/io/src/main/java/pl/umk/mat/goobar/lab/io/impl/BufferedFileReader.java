@@ -23,7 +23,11 @@ public class BufferedFileReader implements FileReader
 		try (BufferedReader bufferedReader = new BufferedReader(
 			new java.io.FileReader(path.toFile())))
 		{
-			// TODO: implement
+			String line = null;
+			while ((line = bufferedReader.readLine()) != null)
+			{
+				result.add(line);
+			}
 		}
 		return result;
 	}
